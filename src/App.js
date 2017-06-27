@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.sass';
+import './App.css';
 
 class App extends Component {
   render() {
@@ -11,8 +11,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          <input type="text"></input>
-          <button type="submit">Join</button>
+          To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
     );
